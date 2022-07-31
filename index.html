@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/265760d9f7.js" crossorigin="anonymous"></script>
+            
+    <title>Airline</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <img src="images/logo.png" alt="Airline Logo">
+        <ul class="nav-links">
+            <li><a href="">Book</a></li>
+            <li><a href="">Check-In</a></li>
+            <li><a href="">Travel Status</a></li>
+            <li><a href="">My Miles</a></li>
+        </ul>
+    </nav>
+    <hr>
+    
+
+    <section>
+        <div class="form">
+            <h3>Find Your Flight</h3>
+            <div class="textbox-container">
+                <div class="wrap-input">
+                    <label for="origen">Origin</label>
+                    <input type="text" id="origen" name="origen" placeholder="Try 'New York'">
+                </div>
+                <div class="wrap-input">
+                    <label for="destino">Destination</label>
+                    <input type="text" id="destino" name="destino" placeholder="'London'">
+                </div>
+                <div class="wrap-input">
+                    <label for="comienzo">Depart</label>
+                    <input type="date" id="start" name="comienzo" value="2022-08-01" min="2022-01-01" max="2024-12-31">
+                </div>
+                <div class="wrap-input">
+                    <label for="fin">Return</label>
+                    <input type="date" id="start" name="fin" value="2022-08-10" min="2022-01-01" max="2024-12-31">
+                </div>
+                    <select name="passengers">
+                        <option value="value1" selected>1 Passenger</option>
+                        <option value="value2">2 Passengers</option>
+                        <option value="value3">3 Passengers</option>
+                        <option value="value4">4 Passengers</option>
+                    </select>
+                        <select name="layovers" class="select">
+                            <option value="none" selected>Only Show Direct Flights</option>
+                            <option value="value1">1 Layover</option>
+                            <option value="value2">2 Layovers</option>
+                            <option value="value3">+3 Layovers</option>
+                        </select>
+                        <select name="category" class="select">
+                            <option value="value1" selected>Basic Economy</option>
+                            <option value="value2">Main Cabin</option>
+                            <option value="value3">Bussiness</option>
+                            <option value="value4">First Class</option>
+                        </select>
+                </div>
+                <button class="button"><i class="fa-solid fa-plane-departure"></i>Search</button>
+            </div>
+    </section>
+
+    <section class="banner">
+        <img src="images/banner.jpg" alt="Woman in plane">
+        <div class="banner-text">
+            <h1>Book Your Next Flight With Us</h1>
+            <h4>It's That Simple</h4>
+            <input class="button-banner" type="submit" value="Know More">
+            <p>Terms Apply.</p>
+        </div>
+    </section>
+
+    <section class="cities">
+        <h1>Our Destinations</h1>
+        <div class="row">
+            <div class="column">
+                <h3>London</h3>
+                <img src="images/london.JPG" alt="London">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi alias labore quo quas odit quos ex a tempora, ratione, veniam quis, in blanditiis perspiciatis. Nobis animi odio doloremque corporis. In.</p>
+            </div>
+            <div class="column">
+                <h3>New York</h3>
+                <img src="images/new_york.JPG" alt="New York">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae architecto error, iusto excepturi perferendis incidunt voluptatum atque nam cumque veritatis quos enim a commodi, hic consectetur eligendi fuga mollitia!</p>
+            </div>
+            <div class="column">
+                <h3>San Francisco</h3>
+                <img src="images/san_francisco.jpeg" alt="San Francisco">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, odio rem molestiae nemo ipsam eligendi ad quaerat quia. Et libero, tempora quam perspiciatis laudantium est eum! Sed praesentium quis deleniti.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <div class="card-column">
+                <img src="images/card1.jpg" alt="Apple Watch">
+            </div>
+            <div class="card-column">
+                <h4>Cancel</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellat magnam error similique. Dolorum, atque nesciunt rerum itaque nam earum aliquid harum sequi quo asperiores magni, repellat odit eum illum!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-column">
+                <img src="images/app.jpg" alt="Apple Watch">
+            </div>
+            <div class="card-column">
+                <h4>Our App</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellat magnam error similique. Dolorum, atque nesciunt rerum itaque nam earum aliquid harum sequi quo asperiores magni, repellat odit eum illum!</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-row">
+            <div class="footer-column">
+                <h6>About Birdline</h6>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Our App</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h6>Customer Service</h6>
+                <ul>
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="">Chat Online</a></li>
+                    <li><a href="">Leave a Comment</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h6>Policies</h6>
+                <ul>
+                    <li><a href="">Legal</a></li>
+                    <li><a href="">Cookies</a></li>
+                    <li><a href="">Contact </a></li>
+                </ul>
+            </div>
+        </div>
+        <h4>Contact Us</h4>
+        <div class="contact">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+        </div>
+
+
+    </footer>
+          
+    
+</body>
+</html>
